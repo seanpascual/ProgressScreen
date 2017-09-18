@@ -25,6 +25,8 @@
 		3867D1F01BE7ADC400676F63 /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3867D1EF1BE7ADC400676F63 /* ScreenShot.png */; };
 		38AF55571CA2D06E008C4A9F /* PSApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF55561CA2D06E008C4A9F /* PSApplication.m */; };
 		38AF555A1CA2D082008C4A9F /* ConfigurationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF55591CA2D082008C4A9F /* ConfigurationSettings.m */; };
+		6E9D3F491F5DBAE600C8AD89 /* beamly.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9D3F481F5DBAE600C8AD89 /* beamly.png */; };
+		6E9D3F4B1F6983C200C8AD89 /* beamly-logo-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9D3F4A1F6983C200C8AD89 /* beamly-logo-pink.png */; };
 		D593ABBF1D8AE2430067012A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507C94E1D89F209003A6571 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,8 @@
 		38AF55561CA2D06E008C4A9F /* PSApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSApplication.m; sourceTree = "<group>"; };
 		38AF55581CA2D082008C4A9F /* ConfigurationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationSettings.h; sourceTree = "<group>"; };
 		38AF55591CA2D082008C4A9F /* ConfigurationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationSettings.m; sourceTree = "<group>"; };
+		6E9D3F481F5DBAE600C8AD89 /* beamly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beamly.png; path = ../../../../../Desktop/beamly.png; sourceTree = "<group>"; };
+		6E9D3F4A1F6983C200C8AD89 /* beamly-logo-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beamly-logo-pink.png"; sourceTree = "<group>"; };
 		D507C94E1D89F209003A6571 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,8 @@
 		381832341BD54A2B006E605E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				6E9D3F4A1F6983C200C8AD89 /* beamly-logo-pink.png */,
+				6E9D3F481F5DBAE600C8AD89 /* beamly.png */,
 				381832351BD54A2B006E605E /* imac27-accessories-pr-print.jpg */,
 			);
 			path = images;
@@ -309,6 +315,7 @@
 			files = (
 				3818324D1BD54BAA006E605E /* index.html in Resources */,
 				3818324E1BD54BAA006E605E /* muse_manifest.xml in Resources */,
+				6E9D3F4B1F6983C200C8AD89 /* beamly-logo-pink.png in Resources */,
 				381832491BD54BA3006E605E /* jquery-1.8.3.min.js in Resources */,
 				3818324A1BD54BA3006E605E /* jquery.watch.js in Resources */,
 				3825CBFE1C52B4D500081A04 /* ProgressScreen.sdef in Resources */,
@@ -320,6 +327,7 @@
 				3824266E1BD12234000E10EB /* Assets.xcassets in Resources */,
 				380B0F891BE2790500900CDF /* MainMenu.xib in Resources */,
 				3867D1F01BE7ADC400676F63 /* ScreenShot.png in Resources */,
+				6E9D3F491F5DBAE600C8AD89 /* beamly.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
