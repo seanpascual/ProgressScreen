@@ -75,7 +75,7 @@
 		38AF55561CA2D06E008C4A9F /* PSApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSApplication.m; sourceTree = "<group>"; };
 		38AF55581CA2D082008C4A9F /* ConfigurationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationSettings.h; sourceTree = "<group>"; };
 		38AF55591CA2D082008C4A9F /* ConfigurationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationSettings.m; sourceTree = "<group>"; };
-		6E9D3F481F5DBAE600C8AD89 /* beamly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beamly.png; path = ../../../../../Desktop/beamly.png; sourceTree = "<group>"; };
+		6E9D3F481F5DBAE600C8AD89 /* beamly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beamly.png; path = ../../../../Desktop/beamly.png; sourceTree = "<group>"; };
 		6E9D3F4A1F6983C200C8AD89 /* beamly-logo-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beamly-logo-pink.png"; sourceTree = "<group>"; };
 		D507C94E1D89F209003A6571 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -483,8 +483,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ProgressScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasontratta.ProgressScreen.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beamly.ProgressScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ProgressScreen/ProgressScreen-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -497,11 +497,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E5UM6H3RQ5;
 				INFOPLIST_FILE = ProgressScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasontratta.ProgressScreen.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beamly.ProgressScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ProgressScreen/ProgressScreen-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
